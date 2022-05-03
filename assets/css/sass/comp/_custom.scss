@@ -1,0 +1,26 @@
+body{
+    // background-color: #F5F5F5;
+    background-color: #ffffff;
+}
+label{
+    &.session-err{
+        color: #fd3535;
+        margin: 0;
+    }
+}
+.loading{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(255,255,255,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+
+    &.hide{
+        display: none;
+    }
+}

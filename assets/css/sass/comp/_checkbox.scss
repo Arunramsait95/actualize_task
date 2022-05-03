@@ -1,0 +1,31 @@
+/*  start checkbox */
+
+
+
+.label-text {
+
+    padding: 3px 10px 3px 10px;
+    border-radius: 10px;
+    background: #f5f5f5;
+    box-sizing: border-box !important;
+    font-family: 'Roboto', sans-serif !important;
+    color: #aaaaaa;
+    font-size: 12px;
+    text-align: left;
+    line-height: normal;
+    width:76px;
+    margin-right: 15px;
+  }
+  
+  input.check:checked + .label-text {
+  background: #027db4;
+  color:white;
+
+  }
+  
+  .checkbox-hide
+  {
+    display: none;
+  }
+  
+  /* end checkbox*/
